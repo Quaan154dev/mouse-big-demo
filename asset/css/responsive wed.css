@@ -1,0 +1,125 @@
+/* PC  : Width >= 1024px*/
+@media only screen and (min-width : 64em) {
+    .PC {
+        
+    }
+}
+
+
+/* Tablet : width >= 740px and  width < 1024 px    */
+@media only screen and (min-width :46.25em ) and (max-width : 63.9375em) {
+    
+}
+
+/* Mobile : width < 740px   */
+@media only screen and (max-width : 46.1875em) {
+    .s-width-full{
+        width: 100%;
+    }
+    .s-mt-8{
+        margin-top: 6px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .menu-icon{
+        font-size: 15px;
+        color: white;
+        /* padding: 12px 24px; */
+        line-height: 46.5px;
+        display: block;
+        padding: 0 23px;
+    }
+    #header .menu-icon:hover{
+        color: black;
+        background-color: #ccc;
+        
+    }
+    /* NAV   */
+    #nav {
+        cursor: grabbing;
+        margin-right: -30px ;
+        display: block;
+        /* position: relative; */
+    }
+   
+    #nav > li{
+       font-size: 15px;
+       display: block;
+       
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav :hover {
+        color: black;
+        background-color:  #ccc;
+    }
+    #nav .subnav{
+        position: initial;
+    } 
+     /* START SLIDER */
+    .col-third{
+        width:  100% ;
+    }
+    .col-half{
+      width: 100%;
+    }
+    #slider .text-content{
+        display: none;
+    }
+     /* END SLINDER */
+    
+     /* START CONTENT */
+    #contact .contact-info {
+       margin-bottom: 16px;
+    } 
+    #content .member-img{
+        width: 60% ;
+        height: 60%;
+    }
+    #content .member-name {
+       margin: 15px 0;
+    }
+    
+    #contact .send{
+        width: 100%;
+        margin-top: 16px;
+    }
+    #contact a{
+        text-align: center;
+    }
+    
+    /* END CONTENT */
+}
+/* Chung của mobile & tablet width < 1024px*/
+@media only screen and (max-width : 63.9375em){
+        .place-body .place-buy-btn { 
+            padding: 15px 16px ;
+        }
+        .contact-form .form-control{
+            padding: 15px;
+        }
+        .contact-info{
+            line-height: 2.2 ;
+        }
+        #footer .medias-list{
+            font-size: 48px;
+        }
+        #footer .medias-list a{
+            margin: 0 4px;
+        }
+        #footer .copyright{
+            font-size: 30px;
+        }
+        #footer .copyright a{
+           padding: 22px 0;
+           display: inline-block;
+        } 
+    
+      
+}
